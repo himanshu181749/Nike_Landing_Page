@@ -35,3 +35,49 @@ nav ul{
   list-style: none;
   gap: 24px;
 }
+
+.hero{
+  display: flex;
+  max-width: 1280px;
+  margin: 0 150px;
+  align-items: center;
+  height: calc(100vh-78px);
+}
+
+.hero-content {
+  gap: 20px;
+}
+
+.hero-content h1{
+  font-weight: 800px;
+  font-size: 60px;
+  line-height: 65px;
+}
+
+.hero-content > button{
+  all: unset;
+  padding: 6px 16px;
+  background: red;
+  height: 32px;
+  color: white;
+}
+
+.hero-content > p{
+  font-weight: bold;
+  font-size: 11px;
+  color: grey;
+}
+
+.btn{
+  display: flex;
+  gap: 20px;
+
+}
+.hero-btn{
+   width: 100px;
+   height: 30px;
+   background-color: rgba(165, 15, 15, 0.811) ;
+   gap: 40px;
+   color: white;
+   border: none;
+}
